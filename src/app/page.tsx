@@ -7,6 +7,7 @@ import Testimonials from "@/components/Testimonials";
 import Partners from "@/components/Partners";
 import Footer from "@/components/Footer";
 
+
 export default function Home() {
   return (
     <main className="min-h-screen bg-gray-50 scroll-smooth relative">
