@@ -10,7 +10,7 @@ export default function Hero() {
       {/* Background Image with Darker Overlay */}
       <div 
         className="absolute inset-0 z-0 bg-cover bg-center"
-        style={{ backgroundImage: "url('https://images.unsplash.com/photo-1511795409834-ef04bbd61622?q=80&w=2000&auto=format&fit=crop')" }}
+        style={{ backgroundImage: "url('https://i.ibb.co/6JZrFPwf/666478ac-e939-4b45-8735-50f3921735fd.png')" }}
       ></div>
       <div className="absolute inset-0 z-0 bg-black/60"></div> 
       
