@@ -4,7 +4,6 @@ import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Star, PauseCircle, PlayCircle } from "lucide-react";
 
-// Expanded mock data to allow for looping
 const allReviews = [
   { name: "Eleanor & James", event: "Wedding Celebration", text: "LuxeEvents blew us away. They took our scattered ideas and turned them into a breathtaking reality." },
   { name: "TechNova Corp", event: "Corporate Gala", text: "Professional, punctual, and highly creative. Managed our 500-guest event effortlessly." },

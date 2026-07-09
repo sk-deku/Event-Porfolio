@@ -3,7 +3,6 @@
 import { motion } from "framer-motion";
 import { Crown, Gem, Wine, Music, Camera, UtensilsCrossed } from "lucide-react";
 
-// Simulated Partner Logos using Icons and Text
 const partners = [
   { icon: Crown, name: "The Grand Plaza", offset: "mt-0" },
   { icon: Camera, name: "Vogue Photography", offset: "mt-12" },

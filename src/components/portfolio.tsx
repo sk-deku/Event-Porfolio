@@ -7,6 +7,7 @@ import { X, PlayCircle, Quote } from "lucide-react";
 
 const categories = ["All", "Marriage", "Birthday", "Corporate"];
 
+
 export default function Portfolio() {
   const [activeCategory, setActiveCategory] = useState("All");
   const [selectedEvent, setSelectedEvent] = useState<any>(null);

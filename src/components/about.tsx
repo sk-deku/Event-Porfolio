@@ -8,6 +8,7 @@ export default function About() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col lg:flex-row items-center gap-16">
           
+          
           {/* Left: Images Collage */}
           <motion.div 
             initial={{ opacity: 0, x: -50 }}
