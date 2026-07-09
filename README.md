@@ -1,116 +1,270 @@
-Here is a premium, beautifully formatted `README.md` file for your project. It highlights all the amazing, high-end features we built and provides clear instructions for anyone viewing your code.
+# ✨ LuxeEvents – Premium Event Management Website
 
-Simply create a file named `README.md` in the root folder of your project, delete the default Next.js text, and paste this inside!
+<p align="center">
+  <img src="https://img.shields.io/badge/Next.js-15-black?style=for-the-badge&logo=next.js" />
+  <img src="https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-4-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" />
+  <img src="https://img.shields.io/badge/TypeScript-5-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/Framer_Motion-Latest-0055FF?style=for-the-badge&logo=framer&logoColor=white" />
+</p>
 
-***
-
-```markdown
-# 💎 LuxeEvents | Premium Event Management Platform
-
-[![Next.js](https://img.shields.io/badge/Next.js-Black?style=for-the-badge&logo=next.js&logoColor=white)](https://nextjs.org/)
-[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
-[![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white)](https://www.framer.com/motion/)
-
-> A highly interactive, luxury event management web application. It serves as both a breathtaking portfolio to build client trust and a powerful, custom lead-generation tool via a step-by-step budget planner.
-
-🔗 **Live Preview:** [event-portfolio.vercel.app](https://event-portfolio.vercel.app)
+<p align="center">
+  A modern, premium event management website built with <b>Next.js</b>, featuring smooth animations,
+  elegant UI, interactive sections, and a luxury-inspired design.
+</p>
 
 ---
 
-## ✨ Key Features
+## 📸 Preview
 
-### 🛠️ The Concierge Budget Planner (Lead Generation)
-* **Step-by-Step Wizard:** Users build their custom event package step-by-step (Event Type, Guest Count, Venues, Photographers, Catering, etc.).
-* **Dynamic Sliders:** Interactive sliders for Guest Count and Veg/Non-Veg food preferences.
-* **Live Receipt:** A sticky, real-time receipt calculates base subtotals, management fees (15%), and contingency logistics (5%).
-* **Skip & Leave to Management:** Users can skip specific vendor choices, allowing the event organizers to take control.
+> Replace these images with your own screenshots.
 
-### 🎬 Cinematic Portfolio
-* **Video Modals:** Clicking a past event opens a gorgeous, scrollbar-free modal featuring cinematic HTML5 background videos.
-* **Auto-Swiping Reviews:** Inside the event details, a carousel automatically fades between different client testimonials every 4 seconds.
-
-### 💬 Staggered Interactive Testimonials
-* **Cascading Animation:** Client reviews slide down into view in a staggered, 3-column masonry-style layout.
-* **Play/Pause Control:** Users can freeze the animation at any time to read longer reviews.
-
-### 🎨 Premium UI/UX Details
-* **Smart Navbar:** The navigation bar intelligently hides when scrolling down to maximize screen space, and reappears when scrolling up.
-* **Framer Motion Layouts:** Elements smoothly glide, fade, and pop into existence as the user scrolls down the page.
-* **Organic Partner Grid:** Partner logos are arranged in a scattered, aesthetic layout that turns from grayscale to full color on hover.
+| Home | Portfolio |
+|------|-----------|
+| ![](assets/home.png) | ![](assets/portfolio.png) |
 
 ---
 
-## 💻 Tech Stack
+# ✨ Features
 
-* **Framework:** [Next.js 14](https://nextjs.org/) (React, App Router)
-* **Styling:** [Tailwind CSS](https://tailwindcss.com/)
-* **Animations:** [Framer Motion](https://www.framer.com/motion/)
-* **Icons:** [Lucide React](https://lucide.dev/) & Custom SVGs
-* **Data Management:** Simulated Database (`src/lib/data.ts`)
+### 🎉 Premium Landing Page
+- Luxury hero section
+- Smooth entrance animations
+- Responsive layout
+- Mobile-first design
+
+### 📖 About Section
+- Company introduction
+- Statistics
+- Mission & Vision
+
+### 🎬 Event Portfolio
+- Beautiful event gallery
+- Image previews
+- Animated cards
+- Modal support
+
+### 💰 Budget Planner
+- Interactive event cost calculator
+- Multiple event categories
+- Live total estimation
+
+### 💬 Testimonials
+- Animated client reviews
+- Auto sliding carousel
+- Modern card layout
+
+### 🤝 Partners
+- Brand logos
+- Hover effects
+- Responsive grid
+
+### 📱 Responsive Design
+- Mobile
+- Tablet
+- Desktop
+
+### ⚡ Performance
+- Optimized images
+- Fast loading
+- SEO friendly
+
+### 🎨 Modern UI
+- Soft gradients
+- Blur effects
+- Glassmorphism
+- Smooth transitions
+- Elegant typography
 
 ---
 
-## 🚀 Getting Started (Local Development)
+# 🛠 Tech Stack
 
-To run this project locally on your machine, follow these steps:
+| Technology | Purpose |
+|------------|---------|
+| Next.js | Framework |
+| React | UI Library |
+| TypeScript | Type Safety |
+| Tailwind CSS | Styling |
+| Framer Motion | Animations |
+| Lucide React | Icons |
 
-### 1. Clone the repository
+---
+
+# 📂 Project Structure
+
+```text
+src/
+│
+├── app/
+│   ├── layout.tsx
+│   ├── page.tsx
+│   └── globals.css
+│
+├── components/
+│   ├── Hero.tsx
+│   ├── Navbar.tsx
+│   ├── About.tsx
+│   ├── Portfolio.tsx
+│   ├── BudgetPlanner.tsx
+│   ├── Testimonials.tsx
+│   ├── Partners.tsx
+│   └── Footer.tsx
+│
+├── lib/
+│
+├── hooks/
+│
+├── utils/
+│
+└── types/
+```
+
+---
+
+# 🚀 Getting Started
+
+## Clone Repository
+
 ```bash
-git clone https://github.com/yourusername/event-portfolio.git
+git clone https://github.com/YOUR_USERNAME/event-portfolio.git
+```
+
+---
+
+## Go to Project
+
+```bash
 cd event-portfolio
 ```
 
-### 2. Install dependencies
+---
+
+## Install Dependencies
+
 ```bash
 npm install
 ```
 
-### 3. Run the development server
-*(Note: If you are on Windows and experience Turbopack errors, use the `--webpack` flag)*
+---
+
+## Run Development Server
+
 ```bash
-npm run dev --webpack
+npm run dev
 ```
 
-### 4. Open the app
-Open [http://localhost:3000](http://localhost:3000) in your browser to see the application running.
+Open
 
----
-
-## 📂 Project Structure
-
-```text
-src/
-├── app/
-│   ├── globals.css        # Global styles and scrollbar-hiding utilities
-│   ├── layout.tsx         # Next.js root layout
-│   └── page.tsx           # Main Landing Page (Stacks all components)
-├── components/
-│   ├── Navbar.tsx         # Smart hiding navigation
-│   ├── Hero.tsx           # Animated landing section
-│   ├── About.tsx          # Company stats and story
-│   ├── Portfolio.tsx      # Video modals and auto-swiping reviews
-│   ├── BudgetPlanner.tsx  # Step-by-step interactive wizard
-│   ├── InquiryModal.tsx   # Final checkout and lead capture form
-│   ├── Testimonials.tsx   # Staggered 3-column animation
-│   ├── Partners.tsx       # Organic grid of partner logos
-│   └── Footer.tsx         # Comprehensive footer with SVG socials
-└── lib/
-    └── data.ts            # Simulated database for events and vendors
+```
+http://localhost:3000
 ```
 
 ---
 
-## 🔮 Future Roadmap
+## Build Production
 
-- [ ] **Admin Dashboard:** A secured `/admin` route to manage incoming inquiries (CRM) and update vendors/pricing without touching code.
-- [ ] **Email Integration:** Connect `Resend` or `EmailJS` to send automated receipts to the client and notify the management team upon form submission.
-- [ ] **Payment Gateway:** Integrate Stripe to allow clients to pay an initial consultation deposit directly through the app.
-
----
-*Designed & Developed for unforgettable experiences.*
+```bash
+npm run build
 ```
 
-### How to use this:
-1. Copy everything inside the gray box above.
-2. In your code editor (like VS Code), find the `README.md` file in the main folder.
-3. Paste it, save, and you have an incredibly professional GitHub-ready documentation page!
+---
+
+## Start Production
+
+```bash
+npm start
+```
+
+---
+
+# 📦 Scripts
+
+| Command | Description |
+|----------|-------------|
+| npm run dev | Start development server |
+| npm run build | Production build |
+| npm start | Start production server |
+| npm run lint | Lint project |
+
+---
+
+# 📱 Responsive
+
+- ✅ Mobile
+- ✅ Tablet
+- ✅ Laptop
+- ✅ Desktop
+- ✅ Ultra-wide Displays
+
+---
+
+# 🎯 Lighthouse Goals
+
+- ⚡ Performance
+- ♿ Accessibility
+- 🔍 SEO
+- ✅ Best Practices
+
+---
+
+# 🌟 Highlights
+
+- Premium UI Design
+- Smooth Animations
+- Responsive Layout
+- Modern Components
+- Optimized Performance
+- Clean Folder Structure
+- Easy to Customize
+- SEO Friendly
+
+---
+
+# 📈 Future Improvements
+
+- Admin Dashboard
+- CMS Integration
+- Booking System
+- Payment Gateway
+- Email Notifications
+- Event Calendar
+- Live Chat
+- Dark / Light Theme
+- Multi-language Support
+- Analytics Dashboard
+
+---
+
+# 📄 License
+
+This project is licensed under the **MIT License**.
+
+---
+
+# 👨‍💻 Author
+
+**Your Name**
+
+GitHub:
+https://github.com/YOUR_USERNAME
+
+Portfolio:
+https://yourportfolio.com
+
+Email:
+your@email.com
+
+---
+
+# ⭐ Support
+
+If you like this project, consider giving it a ⭐ on GitHub.
+
+It helps others discover the project and supports future improvements.
+
+---
+
+<p align="center">
+Made with ❤️ using Next.js, React, TypeScript and Tailwind CSS.
+</p>
