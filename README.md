@@ -17,8 +17,6 @@
 
 ## 📸 Preview
 
-> Replace these images with your own screenshots.
-
 | Home | Portfolio |
 |------|-----------|
 | ![](assets/home.png) | ![](assets/portfolio.png) |
@@ -127,7 +125,7 @@ src/
 ## Clone Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/event-portfolio.git
+git clone https://github.com/sk-deku/event-portfolio.git
 ```
 
 ---

@@ -40,10 +40,18 @@ export default function Navbar() {
           </Link>
 
           <div className="hidden md:flex space-x-8 items-center">
+            {/* NEW: Subtle Vendor Portal Link */}
+            <Link href="/vendor" className="text-sm font-bold text-gray-800 hover:text-rose-600 transition-colors flex items-center gap-1 border-r border-gray-200 pr-6">
+              Vendor Portal
+            </Link>
+
             <Link href="#about" className="font-semibold text-gray-800 hover:text-rose-600 transition-colors">About</Link>
             <Link href="#gallery" className="font-semibold text-gray-800 hover:text-rose-600 transition-colors">Gallery</Link>
             <Link href="#quote" className="font-semibold text-gray-800 hover:text-rose-600 transition-colors">Vendors</Link>
-            <Link href="#quote" className="bg-rose-600 text-white px-6 py-2.5 rounded-full font-bold hover:bg-rose-700 transition shadow-lg hover:shadow-rose-500/30">
+            <Link 
+              href="#quote" 
+              className="bg-rose-600 text-white px-6 py-2.5 rounded-full font-bold hover:bg-rose-700 transition shadow-lg hover:shadow-rose-500/30"
+            >
               Get Free Quote
             </Link>
           </div>
